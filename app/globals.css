@@ -1,13 +1,16 @@
 @import "tailwindcss";
 
 @theme {
-  --color-surface: #f3f4f6; /* Cool light gray background */
+  --color-surface: #f8fafc; /* Soft white background */
   --color-box: #ffffff; /* Pure white box background */
-  --color-ink: #374151; /* Slate gray content text */
-  --color-teal: #14b8a6; /* Teal accents / buttons */
-  --color-teal-hover: #10b981; /* Emerald green hover */
-  --color-dark: #111827; /* Dark scrim / headings emphasis */
-  --color-muted: #6b7280;
+  --color-ink: #1e293b; /* Dark slate content text */
+  --color-primary: #0f4c81; /* Deep medical blue — primary brand */
+  --color-primary-hover: #0b3a63; /* Darker blue hover */
+  --color-sky: #4fa3d9; /* Sky blue — secondary highlights */
+  --color-teal: #2ec4b6; /* Teal — accent / highlights */
+  --color-teal-hover: #26a99d; /* Darker teal hover */
+  --color-dark: #0b2b47; /* Deep navy scrim / headings emphasis */
+  --color-muted: #64748b;
 
   --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
 }

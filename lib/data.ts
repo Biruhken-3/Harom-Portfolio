@@ -4,9 +4,9 @@ export const profile = {
   title:
     "Consultant General Surgeon · Assistant Professor · Plastic, Reconstructive & Hand Surgery Fellow",
   tagline:
-    "Blending advanced surgical techniques with compassionate patient care — clinical excellence, academic leadership, and impactful research.",
+    "I blend advanced surgical techniques with compassionate patient care - clinical excellence, academic leadership, and impactful research.",
   heroAbout:
-    "From the operating theater at Jimma University Medical Center to advanced microsurgery training at Ganga Hospital, India, Dr. Harom has built a career on precision, empathy, and evidence. He treats every patient as a story worth restoring — and every student as the next generation of surgical excellence.",
+    "From the operating theater at Jimma University Medical Center to advanced microsurgery training at Ganga Hospital, India, I have built my career on precision, empathy, and evidence. I treat every patient as a story worth restoring - and every student as the next generation of surgical excellence.",
   heroVideo: "/hero/haronvideo.mp4",
   heroImage: "/hero/hero.png",
   linkedin: "https://www.linkedin.com/",
@@ -42,7 +42,7 @@ export const education = [
     credential: "Doctor of Medicine (MD)",
     period: "2011 – 2017",
     description:
-      "Six years of rigorous medical training at one of Ethiopia's leading academic medical centers, building the clinical foundation and bedside compassion that continue to shape his practice today.",
+      "Six years of rigorous medical training at one of Ethiopia's leading academic medical centers, building the clinical foundation and bedside compassion that continue to shape my practice today.",
   },
   {
     school: "Adama Hospital Medical College",
@@ -193,7 +193,7 @@ export const impact = [
     title: "Patient Stories",
     text: "Shared inspiring patient recovery stories, including survivors of high-voltage electrical burns and complex reconstructive journeys.",
     detail:
-      "By giving survivors of devastating injuries — like high-voltage electrical burns — a public voice, he transforms individual recoveries into hope for thousands of patients awaiting reconstructive care.",
+      "By giving survivors of devastating injuries - like high-voltage electrical burns - a public voice, I transform individual recoveries into hope for thousands of patients awaiting reconstructive care.",
   },
   {
     title: "Doctors' Day Recognition",
@@ -205,9 +205,9 @@ export const impact = [
     title: "Mentorship",
     text: "Actively mentors young surgeons at Jimma University Medical Center.",
     detail:
-      "Guides the next generation of Ethiopian surgeons through ward rounds, operative teaching, and research supervision — multiplying his impact far beyond his own two hands.",
+      "Guides the next generation of Ethiopian surgeons through ward rounds, operative teaching, and research supervision - multiplying my impact far beyond my own two hands.",
   },
 ] as const;
 
 export const summary =
-  "Dr. Harom Gari Wakjira is a highly skilled surgeon, educator, and researcher whose career is defined by clinical mastery, academic excellence, and humanitarian impact. His contributions to surgical literature, his dedication to teaching, and his compassionate patient care make him a respected figure in Ethiopian medicine and an emerging voice in global surgical innovation.";
+  "I am a highly skilled surgeon, educator, and researcher whose career is defined by clinical mastery, academic excellence, and humanitarian impact. My contributions to surgical literature, my dedication to teaching, and my compassionate patient care make me a respected figure in Ethiopian medicine and an emerging voice in global surgical innovation.";

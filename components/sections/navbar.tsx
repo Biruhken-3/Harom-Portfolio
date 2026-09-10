@@ -23,7 +23,7 @@ export function Navbar() {
         </ul>
         <a
           href="#contact"
-          className="hidden rounded-full bg-teal px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-teal-hover md:inline-flex"
+          className="hidden rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-primary-hover md:inline-flex"
         >
           Get in Touch
         </a>

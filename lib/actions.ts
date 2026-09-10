@@ -36,6 +36,6 @@ export async function sendMessage(
 
   return {
     ok: true,
-    message: `Thank you, ${name}. Your message has been received and Dr. Harom will get back to you soon.`,
+    message: `Thank you, ${name}. Your message has been received and I will get back to you soon.`,
   };
 }

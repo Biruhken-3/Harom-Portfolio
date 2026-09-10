@@ -49,7 +49,7 @@ function ParticleField() {
       </bufferGeometry>
       <pointsMaterial
         size={0.035}
-        color="#14b8a6"
+        color="#4fa3d9"
         transparent
         opacity={0.55}
         sizeAttenuation
@@ -81,7 +81,7 @@ function FloatingShape({
   return (
     <mesh ref={ref} position={position} scale={scale}>
       <icosahedronGeometry args={[1, 1]} />
-      <meshBasicMaterial color="#10b981" wireframe transparent opacity={0.18} />
+      <meshBasicMaterial color="#2ec4b6" wireframe transparent opacity={0.18} />
     </mesh>
   );
 }

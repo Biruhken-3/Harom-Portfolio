@@ -25,7 +25,7 @@ export function Contact() {
               <h3 className="text-lg font-semibold text-ink">Send a Message</h3>
               <p className="mt-1 mb-6 text-sm text-muted">
                 Have a consultation request, collaboration idea, or speaking invitation? Send a
-                message directly — it goes straight to Dr. Harom&rsquo;s inbox.
+                message directly — it goes straight to my inbox.
               </p>
               <ContactForm />
             </Card>

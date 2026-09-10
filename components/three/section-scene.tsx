@@ -48,11 +48,11 @@ function EducationScene() {
             array={EDU_POSITIONS}
           />
         </bufferGeometry>
-        <pointsMaterial size={0.06} color="#14b8a6" transparent opacity={0.35} sizeAttenuation depthWrite={false} />
+        <pointsMaterial size={0.06} color="#4fa3d9" transparent opacity={0.35} sizeAttenuation depthWrite={false} />
       </points>
       <mesh ref={ring} rotation={[Math.PI / 2.5, 0, 0]}>
         <torusGeometry args={[3.2, 0.015, 8, 96]} />
-        <meshBasicMaterial color="#10b981" transparent opacity={0.4} />
+        <meshBasicMaterial color="#2ec4b6" transparent opacity={0.4} />
       </mesh>
     </>
   );
@@ -81,12 +81,12 @@ function ExperienceScene() {
             array={HELIX_POSITIONS}
           />
         </bufferGeometry>
-        <pointsMaterial size={0.08} color="#14b8a6" transparent opacity={0.5} sizeAttenuation depthWrite={false} />
+        <pointsMaterial size={0.08} color="#4fa3d9" transparent opacity={0.5} sizeAttenuation depthWrite={false} />
       </points>
       {[0, 1, 2, 3].map((i) => (
         <mesh key={i} rotation={[Math.PI / 2, 0, (i * Math.PI) / 2]} position={[0, -2.4 + i * 1.6, 0]}>
           <torusGeometry args={[2.2 - i * 0.3, 0.012, 8, 64]} />
-          <meshBasicMaterial color="#10b981" transparent opacity={0.3} />
+          <meshBasicMaterial color="#2ec4b6" transparent opacity={0.3} />
         </mesh>
       ))}
     </group>
@@ -117,7 +117,7 @@ function SkillsScene() {
             array={SKILL_POSITIONS}
           />
         </bufferGeometry>
-        <pointsMaterial size={0.12} color="#14b8a6" transparent opacity={0.6} sizeAttenuation depthWrite={false} />
+        <pointsMaterial size={0.12} color="#4fa3d9" transparent opacity={0.6} sizeAttenuation depthWrite={false} />
       </points>
       {/* Connections between nearby nodes */}
       <lineSegments>
@@ -130,7 +130,7 @@ function SkillsScene() {
             array={SKILL_LINE_ARRAY}
           />
         </bufferGeometry>
-        <lineBasicMaterial color="#10b981" transparent opacity={0.2} />
+        <lineBasicMaterial color="#2ec4b6" transparent opacity={0.2} />
       </lineSegments>
     </group>
   );

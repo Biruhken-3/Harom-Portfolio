@@ -73,8 +73,8 @@ export function Button({
     "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors";
   const styles =
     variant === "primary"
-      ? "bg-teal text-white hover:bg-teal-hover"
-      : "border border-ink/20 text-ink hover:border-teal hover:text-teal";
+      ? "bg-primary text-white hover:bg-primary-hover"
+      : "border border-ink/20 text-ink hover:border-primary hover:text-primary";
   return (
     <a href={href} className={`${base} ${styles}`}>
       {children}
